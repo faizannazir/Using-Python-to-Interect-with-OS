@@ -16,7 +16,7 @@ print(" I am now in ",pwd)
 
 
 #  Remove directory
-os.chdir("..")
+os.chdir("..")              # change directories
 os.rmdir("new_dir")         # only can remove empty directory
 
 # List of sub directory
